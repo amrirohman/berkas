@@ -1,0 +1,30 @@
+=======================================================================================================
+Rule 			Example			Function
+=======================================================================================================
+eval 			eval=TRUE 		Is the code run and the results included in the output?
+-------------------------------------------------------------------------------------------------------
+include 		include=TRUE 		Are the code and the results included in the output?
+-------------------------------------------------------------------------------------------------------
+echo 			echo=TRUE 		Is the code displayed alongside the results?
+-------------------------------------------------------------------------------------------------------
+warning 		warning=TRUE 		Are warning messages displayed?
+-------------------------------------------------------------------------------------------------------
+error 			error=FALSE 		Are error messages displayed?
+-------------------------------------------------------------------------------------------------------
+message 		message=TRUE 		Are messages displayed?
+-------------------------------------------------------------------------------------------------------
+tidy 			tidy=FALSE 		Is the code reformatted to make it look “tidy”?
+-------------------------------------------------------------------------------------------------------
+results 		results="markup" 	How are results treated?
+						"hide" = no results
+						"asis" = results without formatting
+						"hold" = results only compiled at end of chunk (use if many commands act on one object)
+-------------------------------------------------------------------------------------------------------
+cache 			cache=FALSE 		Are the results cached for future renders?
+-------------------------------------------------------------------------------------------------------
+comment 		comment="##" 		What character are comments prefaced with?
+-------------------------------------------------------------------------------------------------------
+fig.width,fig.height 	fig.width=7 		What width/height (in inches) are the plots?
+-------------------------------------------------------------------------------------------------------
+fig.align 		fig.align="left" 	"left" "right" "center"
+-------------------------------------------------------------------------------------------------------
